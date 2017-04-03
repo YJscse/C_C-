@@ -12,7 +12,8 @@ int main15158()
 	srand((int)time(NULL));
 
 	int num = 0;
-	while (1) {
+	while (1)
+	{
 
 		printf("무엇을 내겠습니까?(1: 가위, 2:바위, 3:보, q:종료) : ");
 

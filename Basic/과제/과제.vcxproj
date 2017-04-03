@@ -140,6 +140,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HighLowGame.c" />
+    <ClCompile Include="practice.c" />
     <ClCompile Include="Quiz 09-01.c" />
     <ClCompile Include="Quiz 09-02.c" />
     <ClCompile Include="RPS_Game.c" />
