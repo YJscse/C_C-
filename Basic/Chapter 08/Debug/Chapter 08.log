@@ -1,0 +1,15 @@
+﻿  과제.c
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 08\과제.c(136): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 08\과제.c(137): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 08\과제.c(205): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 08\과제.c(206): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 08\과제.c(211): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 08\과제.c(212): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+  Chapter 08.vcxproj -> C:\Users\KYM2-14\Documents\Visual Studio 2017\Projects\Basic\Debug\Chapter 08.exe
+  Chapter 08.vcxproj -> C:\Users\KYM2-14\Documents\Visual Studio 2017\Projects\Basic\Debug\Chapter 08.pdb (Partial PDB)

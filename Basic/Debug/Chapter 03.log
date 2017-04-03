@@ -1,0 +1,16 @@
+﻿  이효중 변수와 연산자 퀴즈.c
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 03\이효중 변수와 연산자 퀴즈.c(20): error C2061: 구문 오류: 식별자 '제곱'
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 03\이효중 변수와 연산자 퀴즈.c(20): error C2059: 구문 오류: ';'
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 03\이효중 변수와 연산자 퀴즈.c(57): fatal error C1004: 예기치 않은 파일의 끝이 나타났습니다.
+  13_SimpleAddFour 다양한 정수입력 계산기.c
+  12_SimpleAddThree 정수입력 계산기.c
+  10_OperatorSeven 논리 연산자.c
+  09_OperatorSix 관계 연산자.c
+  08_OperatorFive 증가 감소 연산자2.c
+  07_OperatorFour 증가 감소 연잔자1.c
+  05_OperatorTwo 복합 대입 연산자.c
+  04_OperatorOne대입연산자와 산술연산자.c
+  03_SimpleAddTwo 기본 연산자.c
+  01_SimpleAddOne.c
+  02_VarDeclAndInit 선언과 초기화.c
+  코드를 생성하고 있습니다...

@@ -1,0 +1,8 @@
+﻿  08_ScanfConvOne 정수 기반의 입력형태 정의하기.c
+c:\users\kym2-14\documents\visual studio 2017\projects\basic\chapter 06\08_scanfconvone 정수 기반의 입력형태 정의하기.c(8): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+  06_UsingS s의 문자열 출력.c
+  03_OctHex 여러 서식들.c
+  코드를 생성하고 있습니다...
+  Chapter 06.vcxproj -> C:\Users\KYM2-14\Documents\Visual Studio 2017\Projects\Basic\Debug\Chapter 06.exe
+  Chapter 06.vcxproj -> C:\Users\KYM2-14\Documents\Visual Studio 2017\Projects\Basic\Debug\Chapter 06.pdb (Partial PDB)
