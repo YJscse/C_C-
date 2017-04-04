@@ -19,9 +19,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter 07", "Chapter 07\Ch
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter 08", "Chapter 08\Chapter 08.vcxproj", "{98D31A4C-4EC4-4898-852F-29169BA3CC7B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "과제", "과제\과제.vcxproj", "{4CC37B21-22EE-4CC2-B1DA-4286F1B2E1F7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "homework", "과제\과제.vcxproj", "{4CC37B21-22EE-4CC2-B1DA-4286F1B2E1F7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter 09", "Chapter 09\Chapter 09.vcxproj", "{8198C67F-1B38-46A2-A411-9242F0D313C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter 11", "Chapter 11\Chapter 11.vcxproj", "{12619EA4-1ECF-4F68-BFE5-AE9FE10258E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,14 @@ Global
 		{8198C67F-1B38-46A2-A411-9242F0D313C3}.Release|x64.Build.0 = Release|x64
 		{8198C67F-1B38-46A2-A411-9242F0D313C3}.Release|x86.ActiveCfg = Release|Win32
 		{8198C67F-1B38-46A2-A411-9242F0D313C3}.Release|x86.Build.0 = Release|Win32
+		{12619EA4-1ECF-4F68-BFE5-AE9FE10258E5}.Debug|x64.ActiveCfg = Debug|x64
+		{12619EA4-1ECF-4F68-BFE5-AE9FE10258E5}.Debug|x64.Build.0 = Debug|x64
+		{12619EA4-1ECF-4F68-BFE5-AE9FE10258E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{12619EA4-1ECF-4F68-BFE5-AE9FE10258E5}.Debug|x86.Build.0 = Debug|Win32
+		{12619EA4-1ECF-4F68-BFE5-AE9FE10258E5}.Release|x64.ActiveCfg = Release|x64
+		{12619EA4-1ECF-4F68-BFE5-AE9FE10258E5}.Release|x64.Build.0 = Release|x64
+		{12619EA4-1ECF-4F68-BFE5-AE9FE10258E5}.Release|x86.ActiveCfg = Release|Win32
+		{12619EA4-1ECF-4F68-BFE5-AE9FE10258E5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
