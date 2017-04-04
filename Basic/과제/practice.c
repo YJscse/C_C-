@@ -29,7 +29,7 @@ int main(void)
 				
 			}
 
-			//printf("ans1 : %d .. ans2 : %d .. num : %d \n", ans1, ans2, num);
+			printf("ans1 : %d .. ans2 : %d .. num : %d \n", ans1, ans2, num);
 
 
 			if (ans1 == 10 || ans2 == 10)
