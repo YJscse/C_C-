@@ -141,6 +141,8 @@
   <ItemGroup>
     <ClCompile Include="01_ArrayAccess.c" />
     <ClCompile Include="02_ArrayMore.c" />
+    <ClCompile Include="03_ArrayString.c" />
+    <ClCompile Include="04_ReadString.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

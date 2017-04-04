@@ -21,5 +21,11 @@
     <ClCompile Include="02_ArrayMore.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="03_ArrayString.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04_ReadString.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
