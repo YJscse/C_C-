@@ -27,5 +27,8 @@
     <ClCompile Include="04_ReadString.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="05_Null.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

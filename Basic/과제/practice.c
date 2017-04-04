@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void)
+int main1651651(void)
 {
 	int com = 0;
 	int user = 0;

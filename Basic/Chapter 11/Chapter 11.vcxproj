@@ -143,6 +143,7 @@
     <ClCompile Include="02_ArrayMore.c" />
     <ClCompile Include="03_ArrayString.c" />
     <ClCompile Include="04_ReadString.c" />
+    <ClCompile Include="05_Null.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

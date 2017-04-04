@@ -140,10 +140,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseballGame.c" />
     <ClCompile Include="HighLowGame.c" />
     <ClCompile Include="practice.c" />
     <ClCompile Include="Quiz 09-01.c" />
     <ClCompile Include="Quiz 09-02.c" />
+    <ClCompile Include="Quiz 11-01.c" />
+    <ClCompile Include="Quiz 11-02.c" />
+    <ClCompile Include="Quiz 11-03.c" />
+    <ClCompile Include="Quiz 11-04.c" />
+    <ClCompile Include="Quiz 11-05.c" />
     <ClCompile Include="RPS_Game.c" />
     <ClCompile Include="Quiz 07-02.c" />
     <ClCompile Include="Quiz 07-01.c" />
