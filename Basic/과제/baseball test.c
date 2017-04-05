@@ -12,8 +12,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void)
+int maindfdf(void)
 {
+<<<<<<< HEAD
 	int usr[3];       //문자 배열로 변수 선언
 	int com[3];
 	int temp; //
@@ -64,14 +65,57 @@ int main(void)
 			for (j = 0; j < 3; j++)
 			{
 				if (usr[i] == com[j])
+=======
+	unsigned int usr[3];
+	unsigned int com[3];
+	int st = 0, ba = 0, ou = 0;
+	int count = 0;
+
+	while (1)
+	{
+		srand((int)time(NULL));
+
+		com[0] = rand() % 3 + 1;
+		com[1] = rand() % 3 + 1;
+		com[2] = rand() % 3 + 1;
+
+		for (int i = 0; i < 3; i++)
+		{
+			for (int j = 0; com[i] != com[j]; j++)
+			{
+
+			}
+
+
+			printf("정답: %d%d%d", com[0], com[1], com[2]);
+			printf("숫자 야구 게임을 시작합니다.\n(1 ~ 9)사이의 숫자를 3개 입력해 주세요");
+			printf("%d", usr[1]);
+			for (int i = 0; i < 3; i++)
+			{
+				if (usr[i] > 9)
+>>>>>>> a2a5ffe33feef2dcb097b53730c6b864bb7e0234
 				{
-					st++;
+					printf("다시 입력해주십시오.");
+					scanf("%d%d%d", usr[1], usr[2], usr[3]);
 				}
-				else
+				break;
+			}
+
+			for (int a = 0; a < 3; a++)
+			{
+				for (int b = 0; b < 3; b++)
 				{
-					ba++;
+					if (usr[a] == usr[b])
+					{
+						st++;
+					}
+					else
+					{
+						ba++;
+					}
 				}
 			}
+<<<<<<< HEAD
 		}
 		printf("%d strike %d ball \n", st, ba);
 		printf("[%d] 회 시도했습니다.");
@@ -82,3 +126,12 @@ int main(void)
 		}
 	}
 }		
+=======
+			printf("%d Strike %d Ball % Out");
+
+
+		}
+
+	}
+}
+>>>>>>> a2a5ffe33feef2dcb097b53730c6b864bb7e0234

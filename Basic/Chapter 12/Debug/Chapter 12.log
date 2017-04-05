@@ -1,0 +1,6 @@
+﻿  01_PointerExample.c
+c:\users\kym2-14\yjscse\projects\basic\chapter 12\01_pointerexample.c(17): warning C4133: '초기화 중': 'int *'과(와) 'double *' 사이의 형식이 호환되지 않습니다.
+c:\users\kym2-14\yjscse\projects\basic\chapter 12\01_pointerexample.c(18): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+c:\users\kym2-14\yjscse\projects\basic\chapter 12\01_pointerexample.c(21): warning C4133: '초기화 중': 'double *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\Users\KYM2-14\YJscse\Projects\Basic\Debug\Chapter 12.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

@@ -66,5 +66,20 @@
     <ClCompile Include="baseball test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Quiz 12-01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz 12-02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz 13-01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberDiscover.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MindReader.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

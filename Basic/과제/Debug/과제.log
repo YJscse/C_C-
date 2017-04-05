@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿C:\Program Files\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(과제.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   baseball test.c
 c:\users\d.sheep\basic\과제\baseball test.c(45): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
@@ -10,3 +11,20 @@ c:\users\d.sheep\basic\과제\baseball test.c(77): warning C4473: 'printf': 서�
   c:\users\d.sheep\basic\과제\baseball test.c(77): note: 누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
   과제.vcxproj -> C:\Users\D.sheep\Basic\Debug\homework.exe
   과제.vcxproj -> C:\Users\D.sheep\Basic\Debug\homework.pdb (Partial PDB)
+=======
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(과제.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  practice.c
+c:\users\kym2-14\yjscse\projects\basic\과제\practice.c(24): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+c:\users\kym2-14\yjscse\projects\basic\과제\practice.c(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+c:\users\kym2-14\yjscse\projects\basic\과제\practice.c(69): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+c:\users\kym2-14\yjscse\projects\basic\과제\practice.c(79): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+c:\users\kym2-14\yjscse\projects\basic\과제\practice.c(90): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+c:\users\kym2-14\yjscse\projects\basic\과제\practice.c(94): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+  과제.vcxproj -> C:\Users\KYM2-14\YJscse\Projects\Basic\Debug\homework.exe
+  과제.vcxproj -> C:\Users\KYM2-14\YJscse\Projects\Basic\Debug\homework.pdb (Partial PDB)
+>>>>>>> a2a5ffe33feef2dcb097b53730c6b864bb7e0234
