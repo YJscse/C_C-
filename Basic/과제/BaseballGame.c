@@ -12,11 +12,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-<<<<<<< HEAD
-int main1113(void)
-=======
+
+
+
 int main123(void)
->>>>>>> a2a5ffe33feef2dcb097b53730c6b864bb7e0234
+
 {
 	char usr[4];
 	int com[3];

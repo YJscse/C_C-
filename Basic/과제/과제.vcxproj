@@ -140,7 +140,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="baseball test.c" />
     <ClCompile Include="BaseballGame.c" />
     <ClCompile Include="HighLowGame.c" />
     <ClCompile Include="MindReader.c" />

@@ -63,9 +63,6 @@
     <ClCompile Include="BaseballGame.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baseball test.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Quiz 12-01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
