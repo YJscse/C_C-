@@ -14,43 +14,56 @@
 
 int main(void)
 {
-	int usr[3];
+	int usr[3];       //문자 배열로 변수 선언
 	int com[3];
-	int st = 0, ba = 0, ou = 0;
-	int count = 0;
+	int temp; //
+	int st, ba, ou;   // 스트라이크, 볼, 아웃
+	int count = 0;    //게임횟수
+	int i, j;
+	srand((int)time(NULL));
 
-	while(1)
-	{ 
-		srand((int)time(NULL));
-		
-		com[0] = rand() % 3 + 1;
-		com[1] = rand() % 3 + 1;
-		com[2] = rand() % 3 + 1;
-
-		if (com[0] != com[1] && com[0] != com[2] && com[1] != com[2])
+	for (i = 0; i < 3; i++)
+	{
+		temp = rand() % 9 + 1;
+		com[i] = temp;      // 컴퓨터의 숫자를 temp에 저장
+		for (j = 0; j < i; j++)
 		{
-			break;
+			if (temp == com[j] && i != j)
+			{
+				i--;
+			}
 		}
-		else
-			continue;
+	}
+	while (1)  // 게임시작
+	{
 
 		//printf("정답: %d%d%d", com[0], com[1], com[2])
-		printf("숫자 야구 게임을 시작합니다.\n(1 ~ 9)사이의 숫자를 3개 입력해 주세요");
-		
-		for (int i = 0; i < 3; i++)
+		printf("[%d회차 숫자 야구] \n", count);
+		while (1)
 		{
-			if (usr[i] > 9)
+			printf("(1 ~ 9)중에 숫자 입력하시오: ");
+			scanf("%d %d %d", usr[0], usr[1], usr[2]);
+
+			if (usr[0] < 1 || usr[0] > 9 || usr[1] < 1 || usr[1] > 9 || usr[2] < 1 || usr[2] > 9)
 			{
-				printf("다시 입력해주십시오.");
-				scanf("%d%d%d", usr[1], usr[2], usr[3]);
+				printf("다시 입력해주세요");
+				continue;
+			}
+			else if (usr[0] == usr[1] || usr[0] == usr[2] || usr[1] == usr[2])
+			{
+				printf("중복된 숫자는 안됩니다 \n다시 입력해주세요");
+				continue;
 			}
 			break;
 		}
-		for (int a = 0; a < 3; a++)
+		st = 0;
+		ba = 0;
+		ou = 0;
+		for (i = 0; i < 3; i++)
 		{
-			for (int b = 0; b < 3; b++)
+			for (j = 0; j < 3; j++)
 			{
-				if (usr[a] == usr[b])
+				if (usr[i] == com[j])
 				{
 					st++;
 				}
@@ -60,9 +73,12 @@ int main(void)
 				}
 			}
 		}
-		printf("%d Strike %d Ball % Out")
-
-
+		printf("%d strike %d ball \n", st, ba);
+		printf("[%d] 회 시도했습니다.");
+		if (st == 3)
+		{
+			printf("맞췄습니다. \n\n");
+			break;
+		}
 	}
-
-}
+}		
