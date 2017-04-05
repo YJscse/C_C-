@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void)
+int main123(void)
 {
 	char usr[4];
 	int com[3];

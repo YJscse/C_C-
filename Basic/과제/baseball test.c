@@ -12,57 +12,60 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void)
+int maindfdf(void)
 {
-	int usr[3];
-	int com[3];
+	unsigned int usr[3];
+	unsigned int com[3];
 	int st = 0, ba = 0, ou = 0;
 	int count = 0;
 
-	while(1)
-	{ 
+	while (1)
+	{
 		srand((int)time(NULL));
-		
+
 		com[0] = rand() % 3 + 1;
 		com[1] = rand() % 3 + 1;
 		com[2] = rand() % 3 + 1;
 
-		if (com[0] != com[1] && com[0] != com[2] && com[1] != com[2])
-		{
-			break;
-		}
-		else
-			continue;
-
-		//printf("정답: %d%d%d", com[0], com[1], com[2])
-		printf("숫자 야구 게임을 시작합니다.\n(1 ~ 9)사이의 숫자를 3개 입력해 주세요");
-		
 		for (int i = 0; i < 3; i++)
 		{
-			if (usr[i] > 9)
+			for (int j = 0; com[i] != com[j]; j++)
 			{
-				printf("다시 입력해주십시오.");
-				scanf("%d%d%d", usr[1], usr[2], usr[3]);
-			}
-			break;
-		}
-		for (int a = 0; a < 3; a++)
-		{
-			for (int b = 0; b < 3; b++)
-			{
-				if (usr[a] == usr[b])
-				{
-					st++;
-				}
-				else
-				{
-					ba++;
-				}
-			}
-		}
-		printf("%d Strike %d Ball % Out")
 
+			}
+
+
+			printf("정답: %d%d%d", com[0], com[1], com[2]);
+			printf("숫자 야구 게임을 시작합니다.\n(1 ~ 9)사이의 숫자를 3개 입력해 주세요");
+			printf("%d", usr[1]);
+			for (int i = 0; i < 3; i++)
+			{
+				if (usr[i] > 9)
+				{
+					printf("다시 입력해주십시오.");
+					scanf("%d%d%d", usr[1], usr[2], usr[3]);
+				}
+				break;
+			}
+
+			for (int a = 0; a < 3; a++)
+			{
+				for (int b = 0; b < 3; b++)
+				{
+					if (usr[a] == usr[b])
+					{
+						st++;
+					}
+					else
+					{
+						ba++;
+					}
+				}
+			}
+			printf("%d Strike %d Ball % Out");
+
+
+		}
 
 	}
-
 }
