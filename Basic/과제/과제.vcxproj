@@ -165,7 +165,7 @@
     <ClCompile Include="Quiz 07-01.c" />
     <ClCompile Include="Quiz 07-03.c" />
     <ClCompile Include="Quiz 07-04.c" />
-    <ClCompile Include="Quiz07-05.c" />
+    <ClCompile Include="Quiz 07-05.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
