@@ -42,9 +42,6 @@
     <ClCompile Include="HighLowGame.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="practice.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Quiz 11-01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -76,6 +73,24 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="MindReader.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz 15-01 ChallengePrograming.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz 15-02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz 15-03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz 16_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz 16_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz 16_03.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

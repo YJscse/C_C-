@@ -12,95 +12,137 @@
 #include <stdlib.h>
 #include <time.h>
 
-
-
-
-int main123(void)
-
+int NumOX125(int user[], int len)
 {
-	char usr[4];
-	int com[3];
-	int strike = 0, ball = 0;
-	int count = 0;
-	int out = 0;
+	int ox = 0;
 
-	srand((int)time(NULL));
-	
-	
-	while (1)
+	for (int i = 0; i < len; i++)
 	{
-		com[0] = rand() % 9 + 1;
-		com[1] = rand() % 9 + 1;
-		com[2] = rand() % 9 + 1;
-
-		if (com[0] != com[1] && com[0] != com[2] && com[1] != com[2])
-		{
-			break;
-		}
+		if (user[i] < 1 || user[i] > 9)
+			ox++;
 	}
 
-	printf("%d%d%d", com[0], com[1], com[2]);
+	if (ox > 0)
+		return 0;
+	else
+		return 1;
+}
 
-	printf("야구게임을 시작하겠습니다. \n");
+int main123456789(void)
+{
+	int com[50], user[50];
+	char temp[] = "";
+	int len = 0;
+	int strike = 0, ball = 0, count = 0;
+	int tf = 0, ox = 0;
+
+	srand((int)time(NULL));
+
+	com[0] = rand() % 9 + 1;
+	do
+	{
+		com[1] = rand() % 9 + 1;
+	} while (com[0] == com[1]);
+
+	do
+	{
+		com[2] = rand() % 9 + 1;
+	} while (com[2] == com[1] || com[2] == com[0]);
+
+	printf("숫자 야구게임을 시작합니다. \n");
+	printf("세 자리 숫자를 입력하세요 (1 ~ 9) \n\n");
+
+	printf("정답: %d%d%d", com[0], com[1], com[2]);
+
 	while (1)
 	{
-		printf("숫자를 입력해주세요 (1 ~ 9): ");
-		scanf("%s", usr);
-
-		usr[0] = usr[0] - 48;
-		usr[1] = usr[1] - 48;
-		usr[2] = usr[2] - 48;
-		
-	
-		if (usr[0] > 9 || usr[1] > 9 || usr[2] > 9 || usr[3] != 0)
-		{
-			printf("잘못 입력하셨습니다. 3자리 정수만 입력해주세요. \n");
-			continue;
-		}
-		else if (usr[0] < 1 || usr[1] < 1 || usr[2] < 1)
-		{
-			printf("잘못 입력하셨습니다. 3자리 정수만 입력해주세요. \n");
-			continue;
-		}
-
-		if (usr[0] == com[0])
-		{
-			strike++;
-		}
-		else if (usr[0] == com[1] || usr[0] == com[2])
-		{
-			ball++;
-		}
-		else if (usr[1] == com[1])
-		{
-			strike++;
-		}
-		else if (usr[1] == com[0] || usr[1] == com[2])
-		{
-			ball++;
-		}
-		else if (usr[2] == com[2])
-		{
-			strike++;
-		}
-		else if (usr[2] == com[0] || usr[2] == com[1])
-		{
-			ball++;
-		}
 		count++;
 
-		if (strike == 0 && ball == 0)
-		{
-			out++;
-		}
-		printf("%d Strike %d Ball %d Out(%d회) \n", strike, ball, out, count);
+		printf("숫자를 입력하세요(%d회)\t", count);
+		scanf("%s", temp);
 
-		if (strike == 3)
+		while (temp[len] != '\0')
 		{
-			printf("축하합니다!! 승리하셨습니다. \n");
-			break;
+			len++;
 		}
-		strike = 0, ball = 0, out = 0;
+
+		if (len != 3)  // 3자리 숫자 이외에 것을 입력했을때 처리
+		{
+			printf("다시 입력해주세요 \n\n");
+			len = 0;
+			count--;
+			continue;
+		}
+
+		for (int i = 0; i < len; i++)
+		{
+			user[i] = temp[i] - 48;
+		}
+
+		ox = NumOX125(user, len);
+
+		if (ox == 1)
+		{
+			for (int i = 0; i < len; i++)
+			{
+				for (int j = i + 1; j < len; j++)
+				{
+					if (user[i] == user[j])
+					{
+						tf++;
+					}
+				}
+			}
+			if (tf > 0)   // 중복숫자 처리
+			{
+				tf = 0;
+				printf("중복된 숫자가 있습니다. 다시 입력해주세요. \n\n");
+				len = 0;
+				count--;
+				continue;
+			}
+			for (int i = 0; i < len; i++)
+			{
+				for (int j = 0; j < len; j++)
+				{
+					if (com[i] == user[j])
+					{
+						if (i == j)
+						{
+							strike++;
+						}
+						else
+						{
+							ball++;
+						}
+					}
+					
+				}
+			}
+			if (strike == 0 && ball == 0)
+			{
+				printf("OUT\n\n");
+			}
+			else if (strike == len)
+			{
+				printf("당신이 이겼습니다.\n");
+				break;
+			}
+			else
+			{
+				printf("%d strike \t %d ball \nn", strike, ball);
+			}
+			strike = 0;
+			ball = 0;
+		}
+		else
+		{
+			printf("다시 입력해주세요. \n\n");
+			len = 0;
+			count--;
+			continue;
+		}
+
 	}
 	return 0;
 }

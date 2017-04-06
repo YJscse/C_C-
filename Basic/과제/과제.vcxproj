@@ -144,7 +144,6 @@
     <ClCompile Include="HighLowGame.c" />
     <ClCompile Include="MindReader.c" />
     <ClCompile Include="NumberDiscover.c" />
-    <ClCompile Include="practice.c" />
     <ClCompile Include="Quiz 09-01.c" />
     <ClCompile Include="Quiz 09-02.c" />
     <ClCompile Include="Quiz 11-01.c" />
@@ -155,6 +154,12 @@
     <ClCompile Include="Quiz 12-01.c" />
     <ClCompile Include="Quiz 12-02.c" />
     <ClCompile Include="Quiz 13-01.c" />
+    <ClCompile Include="Quiz 15-01 ChallengePrograming.c" />
+    <ClCompile Include="Quiz 15-02.c" />
+    <ClCompile Include="Quiz 15-03.c" />
+    <ClCompile Include="Quiz 16_01.c" />
+    <ClCompile Include="Quiz 16_02.c" />
+    <ClCompile Include="Quiz 16_03.c" />
     <ClCompile Include="RPS_Game.c" />
     <ClCompile Include="Quiz 07-02.c" />
     <ClCompile Include="Quiz 07-01.c" />
