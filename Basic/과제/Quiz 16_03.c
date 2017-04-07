@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int maindfdfdfdfd(void)
 {
 	int arr[4][4] = { 0 };
 	int name[5] = { "이순신", "강감찬", "을지문덕", "권율", "총점" };

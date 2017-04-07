@@ -144,6 +144,11 @@
     <ClCompile Include="HighLowGame.c" />
     <ClCompile Include="MindReader.c" />
     <ClCompile Include="NumberDiscover.c" />
+    <ClCompile Include="Quiz 08-01.c" />
+    <ClCompile Include="Quiz 08-02.c" />
+    <ClCompile Include="Quiz 08-03.c" />
+    <ClCompile Include="Quiz 08-04.c" />
+    <ClCompile Include="Quiz 08-05.c" />
     <ClCompile Include="Quiz 09-01.c" />
     <ClCompile Include="Quiz 09-02.c" />
     <ClCompile Include="Quiz 11-01.c" />
