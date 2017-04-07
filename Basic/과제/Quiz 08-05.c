@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main08_05(void)
 {
 	int num = 0;
 

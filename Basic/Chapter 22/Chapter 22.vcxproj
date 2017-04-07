@@ -144,6 +144,8 @@
     <ClCompile Include="03_StructInit.c" />
     <ClCompile Include="04_StructArrayAccess.c" />
     <ClCompile Include="05_StructArrayInitEx.c" />
+    <ClCompile Include="06_StructPoint.c" />
+    <ClCompile Include="07_StructInStructPoint.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

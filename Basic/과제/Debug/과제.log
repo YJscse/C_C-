@@ -1,6 +1,4 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(과제.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
-  Quiz 08-05.c
-c:\users\kym2-14\yjscse\projects\basic\과제\quiz 08-05.c(12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 'scanf' 선언을 참조하십시오.
+  Quiz 08-08.c
   과제.vcxproj -> C:\Users\KYM2-14\YJscse\Projects\Basic\Debug\homework.exe
   과제.vcxproj -> C:\Users\KYM2-14\YJscse\Projects\Basic\Debug\homework.pdb (Partial PDB)
