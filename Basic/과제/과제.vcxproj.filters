@@ -123,5 +123,11 @@
     <ClCompile Include="Random.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="note.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="note2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

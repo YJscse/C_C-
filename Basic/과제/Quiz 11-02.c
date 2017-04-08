@@ -3,12 +3,11 @@ char형 1차원 배열을 선언과 동시에 'Good time' 문장으로 초기화하고, 저장된 내용을
 
 */
 
-#include <stdio.h>
-
-int main11111(void)
+int main11_02(void)
 {
-	char str[] = "Good time";
+	char word[] = "Good time";
 
-	printf("출력: %s \n", str);
+	printf("%s \n", word);
+
+	return 0;
 }
-

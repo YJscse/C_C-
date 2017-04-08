@@ -144,6 +144,8 @@
     <ClCompile Include="BubbleSort.c" />
     <ClCompile Include="HighLowGame.c" />
     <ClCompile Include="MindReader.c" />
+    <ClCompile Include="note.c" />
+    <ClCompile Include="note2.c" />
     <ClCompile Include="NumberDiscover.c" />
     <ClCompile Include="Quiz 08-01.c" />
     <ClCompile Include="Quiz 08-02.c" />
