@@ -1,28 +1,20 @@
-/*
-문제4
-영단어를 char형 배열에 저장한다. 그 다음 영단어를 역순으로 뒤집는다.
-그리고 입력했던 단어와 뒤집어진 단어를 출력한다.
-*/
-
 #include <stdio.h>
 
 int main(void)
 {
-	char word[20] = { 0 };
-	int i = 0;
+	int num1 = 10;
+	int num2 = 20;
+	int * ptr1 = &num1;
+	int * ptr2 = &num2;
+	int temp;
 
-	printf("영단어를 입력하시오: ");
-	scanf("%s", word);
+	printf("%d %d \n", *ptr1 + 10, *ptr2 - 10);
+	
+	temp = num1;
+	num1 = num2;
+	num2 = temp;
 
-	for (i = 0; i != '\0'; i++)
-	{
-		printf("%s", word);
-	}
-
-	for (i; i != 0; i--)
-	{
-		printf("%c", word[i]);
-	}
+	printf("%d %d \n", *ptr1 + 15, *ptr2 + 15);
 
 	return 0;
 }

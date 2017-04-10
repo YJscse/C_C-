@@ -171,6 +171,8 @@
     <ClCompile Include="Quiz 16_01.c" />
     <ClCompile Include="Quiz 16_02.c" />
     <ClCompile Include="Quiz 16_03.c" />
+    <ClCompile Include="Quiz 20-01 challengePrograming.c" />
+    <ClCompile Include="Quiz 20-02.c" />
     <ClCompile Include="Random.c" />
     <ClCompile Include="RPS_Game.c" />
     <ClCompile Include="Quiz 07-02.c" />

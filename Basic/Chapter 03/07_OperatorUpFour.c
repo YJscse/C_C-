@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main7
-(void)
+int main7(void)
 {
 	int num1 = 12;
 	int num2 = 12;

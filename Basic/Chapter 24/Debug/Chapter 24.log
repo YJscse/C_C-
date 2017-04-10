@@ -1,0 +1,7 @@
+﻿  12_FtellFunction.c
+c:\users\kym2-14\yjscse\projects\basic\chapter 24\12_ftellfunction.c(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
+c:\users\kym2-14\yjscse\projects\basic\chapter 24\12_ftellfunction.c(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
+  Chapter 24.vcxproj -> C:\Users\KYM2-14\YJscse\Projects\Basic\Debug\Chapter 24.exe
+  Chapter 24.vcxproj -> C:\Users\KYM2-14\YJscse\Projects\Basic\Debug\Chapter 24.pdb (Partial PDB)
