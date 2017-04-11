@@ -1,20 +1,67 @@
 #include <stdio.h>
 
-int main(void)
+
+int mainsdfasfd(void)
 {
-	int num1 = 10;
-	int num2 = 20;
-	int * ptr1 = &num1;
-	int * ptr2 = &num2;
-	int temp;
+	int arr[50][50];
+	int num = 0;
+	int count = 0;
+	int i = 0, j = 0;
 
-	printf("%d %d \n", *ptr1 + 10, *ptr2 - 10);
+	printf("정수 입력: ");
+	scanf("%d", &num);
+
+	for (i = 0; i < num; i++)
+	{
+		for (j = 0; j < num; j++)
+		{
+			arr[i][j] = 0;
+		}
+	}
+	i = 0;
+	j = 0;
+
+	while (count < num * num)
+	{
+		for (; arr[i][j] == 0 && count < num * num; j++)
+		{
+			arr[i][j] = ++count;
+		}
+		printf("i: %d j: %d num: %d count: %d a\n", i, j, num * num, count);
+		j--;
+		i++;
+		for (; arr[i][j] == 0 && count < num * num; i++)
+		{
+			arr[i][j] = ++count;
+		}
+		printf("i: %d j: %d num: %d count: %d aa\n", i, j, num * num, count);
 	
-	temp = num1;
-	num1 = num2;
-	num2 = temp;
+		i--;
+		j--;
+		for (; arr[i][j] == 0 && count < num * num; j--)
+		{
+			arr[i][j] = ++count;
+		}
+		printf("i: %d j: %d num: %d count: %d aaa\n", i, j, num * num, count);
+		j++;
+		i--;
+		for (; arr[i][j] == 0 && count < num * num; i--)
+		{
+			arr[i][j] = ++count;
+		}
 
-	printf("%d %d \n", *ptr1 + 15, *ptr2 + 15);
+		i++;
+		j++;
+	}
+
+	for (i = 0; i < num; i++)
+	{
+		for (j = 0; j < num; j++)
+		{
+			printf("%-3d", arr[i][j]);
+		}
+		printf("\n");
+	}
 
 	return 0;
 }

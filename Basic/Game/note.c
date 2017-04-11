@@ -18,7 +18,7 @@ int NumOX(int user[], int len)
 		return 1;
 }
 
-int main(void)
+int main21651(void)
 {
 	int com[50], user[50];
 	char temp[] = "";
@@ -58,7 +58,7 @@ int main(void)
 
 		if (len != 3)  // 3자리 숫자 이외에 것을 입력했을때 처리
 		{
-			prinmtf("다시 입력해주세요 \n\n");
+			printf("다시 입력해주세요 \n\n");
 			len = 0;
 			count--;
 			continue;

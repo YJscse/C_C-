@@ -1,70 +1,71 @@
 #include <stdio.h>
 
-int main1651dfd(void)
+int main(void)
 {
-	int arr[4][4] = { 0 };
-	int name[5] = { "이순신", "강감찬", "을지문덕", "권율", "총점" };
-	int sub[5] = { "국어", "영어", "수학", "국사", "총점" };
-	int ssum[4] = { 0 };
-	int psum[4] = { 0 };
-	int i, j, sum = 0;
-
-	for (i = 0; i < 4; i++)
+	int arr[6][6] = 
 	{
-		for (j = 0; j < 4; j++)
+		{"구분", "이순신", "강감찬", "을지문덕", "권율", "총점"},
+		{"국어"},
+		{"영어"},
+		{"수학"},
+		{"국사"},
+		{"총점"}
+	};
+	int i = 0, j = 1;
+
+	for (i = 1; i < 5; i++)
+	{
+		for (j = 1; j < 5; j++)
 		{
-			printf("%s의 %s 성적을 입력하시오. ", name[i], sub[j]);
+			printf("%s의 %s점수 입력: ", arr[0][i], arr[j][0]);
 			scanf("%d", &arr[j][i]);
 		}
 	}
+	// 성적입력
+	for (i = 1; i < 5; i++)
+	{
+		for (j = 1; j < 5; j++)
+		{
+			arr[5][i] = arr[5][i] + arr[j][i];
+		}
+	}
+	// 학생 총점
+	for (i = 1; i < 5; i++)
+	{
+		for (j = 1; j < 5; j++)
+		{
+			arr[i][5] = arr[i][5] + arr[i][j];
+		}
+	}
+	// 과목 총점
+	for (j = 1; j < 5; j++)
+		{
+			arr[5][5] = arr[5][5] + arr[5][j];
+		}
+	// 총점
 
-	printf("\n");
-	printf("%-2s ", "구분");
-
-	for (i = 0; i < 4; i++)
+	for (i = 0; i < 6; i++)
 	{
-		for (j = 0; j < 4; j++)
+		for (j = 0; j < 6; j++)
 		{
-			ssum[i] = ssum[i] + arr[i][j];
+			if (i == 0)
+			{
+				printf("%-9s", arr[i][j]);
+			}
+			else if (j == 0)
+			{
+				printf("%-5s", arr[i][j]);
+			}
+			else
+			{
+				printf("%9d", arr[i][j]);
+			}
 		}
-	}
-	//과목총점
-	for (i = 0; i < 4; i++)
-	{
-		for (j = 0; j < 4; j++)
-		{
-			psum[j] = psum[j] = arr[j][i];
-		}
-	}
-	//학생총점
-	for (i = 0; i < 4; i++)
-	{
-		sum = sum + psum[j] + ssum[i];
-	}
-	//모든총점
-	for (i = 0; i < 5; i++)
-	{
-		printf("%-6s", name[i]);
-	}
-	//이름 출력
-	for (i = 0; i < 4; i++)
-	{
-		printf("%-2s ", sub[i]);
-		for (j = 0; j < 4; j++)
-		{
-			printf("%6d ", arr[i][j]);
-		}
-		printf("%4d", ssum[i]);
 		printf("\n");
 	}
-	printf("%-2s ", "총점");
-	for (i = 0; i < 4; i++)
-	{
-		printf("%6d ", psum[i]);
-	}
-	printf("%4d ", sum);
-	printf("\n\n");
-
+	
 	return 0;
+	
+
 }
 
