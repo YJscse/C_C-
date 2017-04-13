@@ -1,0 +1,4 @@
+﻿  소스.c
+c:\users\kym2-14\documents\visual studio 2017\projects\cppbasic\exam15-standardcfunction\소스.c(9): warning C4477: 'printf' : 서식 문자열 '%g'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+  Exam15-StandardCFunction.vcxproj -> c:\users\kym2-14\documents\visual studio 2017\Projects\CppBasic\Debug\Exam15-StandardCFunction.exe
+  Exam15-StandardCFunction.vcxproj -> c:\users\kym2-14\documents\visual studio 2017\Projects\CppBasic\Debug\Exam15-StandardCFunction.pdb (Partial PDB)
