@@ -1,0 +1,7 @@
+﻿  02_Overloding.cpp
+c:\users\kym2-14\yjscse\projects\vector\operator\02_overloding.cpp(19): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(129): note: 'strcpy' 선언을 참조하십시오.
+c:\users\kym2-14\yjscse\projects\vector\operator\02_overloding.cpp(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(129): note: 'strcpy' 선언을 참조하십시오.
+  Operator.vcxproj -> C:\Users\KYM2-14\YJscse\Projects\Vector\Debug\Operator.exe
+  Operator.vcxproj -> C:\Users\KYM2-14\YJscse\Projects\Vector\Debug\Operator.pdb (Partial PDB)

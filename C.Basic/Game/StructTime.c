@@ -16,7 +16,7 @@ void print_time(struct tm * now, int tail)
 	printf("%2d시 %2d분 %2d초 %2d \n", now->tm_hour, now->tm_min, now->tm_sec, tail);
 }
 
-int main(void)
+int main35346(void)
 {
 	clock_t sclock, nclock;        //sclock: 시작, nclock: 현재(1/1000초 시간)
 	time_t seconds;                //초단위 시각

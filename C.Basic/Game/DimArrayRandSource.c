@@ -1,4 +1,8 @@
-int main()
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main1231()
 {
 	int num[3][3] = { { 0 } };
 	int i, j;

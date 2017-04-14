@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="DimArrayRandSource.c" />
     <ClCompile Include="note.c" />
+    <ClCompile Include="puzzle.c" />
     <ClCompile Include="StructTime.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
